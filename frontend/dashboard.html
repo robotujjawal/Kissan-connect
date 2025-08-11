@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>KissanConnect - Dashboard</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="topbar">
+    <h1>KissanConnect Dashboard</h1>
+    <div>
+      <button id="refreshBtn">Refresh</button>
+      <button id="logoutBtn" class="danger">Logout</button>
+    </div>
+  </header>
+  <main class="container">
+    <section class="card">
+      <h2>Farmers</h2>
+      <ul id="farmersList" class="list"></ul>
+    </section>
+
+    <section class="card">
+      <h2>Products</h2>
+      <ul id="productsList" class="list"></ul>
+    </section>
+  </main>
+
+  <script src="config.js"></script>
+  <script src="dashboard.js"></script>
+</body>
+</html>
